@@ -1,3 +1,5 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 const mineflayer = require('mineflayer');
 const Movements = require('mineflayer-pathfinder').Movements;
 const pathfinder = require('mineflayer-pathfinder').pathfinder;
